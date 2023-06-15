@@ -1,0 +1,65 @@
+{
+  "name": "html-code-pages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "author": {
+    "email": "info@itzole.nl",
+    "name": "Ole Welling",
+    "url": "https://itzole.nl/"
+  },
+  "keywords": [
+    "package",
+    "html",
+    "html-codes",
+    "html-pages",
+    "auto html codes",
+    "html code handling"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx",
+    "start": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/postcss7-compat": "^2.2.19",
+    "@types/react": "^18.0.37",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.4.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.26.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.2",
+    "vite": "^2.7.9"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:react-hooks/recommended",
+      "prettier"
+    ],
+    "plugins": [
+      "react",
+      "react-hooks"
+    ],
+    "rules": {
+      "react/prop-types": "off",
+      "react/react-in-jsx-scope": "off",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn"
+    }
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 0.2%",
+    "not dead"
+  ]
+}

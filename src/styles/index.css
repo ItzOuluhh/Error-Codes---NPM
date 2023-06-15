@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ma-2bd {
+  /* background: url("../assets/SimpleShiny.svg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important; */
+
+  font-family: "Poppins", sans-serif !important;
+}
+
+hr {
+  height: 5rem !important;
+}
+
+@layer base {
+  body {
+    @apply h-screen w-full;
+  }
+}
